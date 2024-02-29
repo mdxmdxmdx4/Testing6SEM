@@ -12,7 +12,7 @@
 
 Ожидаемый результат | Описание
 :--- | :---
-**Попадаем на URL https://store.steampowered.com/app/730/CounterStrike_2/** | Нашли необходимую нам игру «Counter-Strike 2»
+**Попадаем на URL https://store.steampowered.com/app/730/CounterStrike_2/** | Найдена страница с игрой «Counter-Strike 2»
 <br>
 
 ---
