@@ -9,7 +9,7 @@
 
 1. Переходим по URL https://store.steampowered.com/
 2. В searchbox'е с подсказкой "search" вводим название игры - «CS2»
-3. Нажимаем на всплывающий элемент с изображением и названием игры «Counter-Strike 2» - первым в списке результатов
+3. Нажимаем на всплывающий элемент с названием игры «Counter-Strike 2»
 
 Ожидаемый результат | &nbsp;
 :--- | :---
@@ -70,7 +70,7 @@
 
 1. Открываем URL сообщества - https://steamcommunity.com/
 2. В searchbox'е с названием «FIND HUBS» вводим название игры - «The Witcher Adventure Game»
-3. В появившемся списке нажимаем на опцию «The Witcher Adventure Game»
+3. В списке нажимаем на опцию «The Witcher Adventure Game»
 4. В навигационной панели игры нажимаем на вкладку «News»
 
 Ожидаемый результат | &nbsp;
@@ -137,7 +137,7 @@
 
 1. Открываем страницу поиска групп - https://steamcommunity.com/search/groups
 2. В searchbox'е для поиска группы вводим «Steam Trading Cards Group»
-3. В списке групп нажимаем на контейнер с названием публичной группы «Steam Trading Cards Group».
+3. В списке групп нажимаем на «Steam Trading Cards Group».
 
 Ожидаемый результат | &nbsp;
 :--- | :---
@@ -201,7 +201,7 @@
 
 1. Открываем страницу магазина - https://store.steampowered.com/
 2. Нажимаем на кнопку «Cart(1)"
-3. В контейнере с названием игры «Last Epoch» нажимаем на кнопку «Remove»
+3. Под названием игры «Last Epoch» нажимаем на кнопку «Remove»
 
 Ожидаемый результат | &nbsp;
 :--- | :---
