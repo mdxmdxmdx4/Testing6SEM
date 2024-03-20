@@ -1,0 +1,29 @@
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher createEngine
+INFO: Setting up agent: ULTRAMINING
+мар. 20, 2024 8:53:13 PM hudson.remoting.Engine startEngine
+INFO: Using Remoting version: 3206.vb_15dcf73f6a_9
+мар. 20, 2024 8:53:13 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+INFO: Using C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Jenkins\slave\remoting as a remoting work directory
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Locating server among [http://localhost:8081/]
+мар. 20, 2024 8:53:13 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Agent discovery successful
+  Agent address: localhost
+  Agent port:    9090
+  Identity:      55:2c:ac:2e:f3:d2:07:33:a0:14:aa:1e:33:cf:cb:49
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Handshaking
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connecting to localhost:9090
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Server reports protocol JNLP4-connect-proxy not supported, skipping
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Trying protocol: JNLP4-connect
+мар. 20, 2024 8:53:13 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+INFO: Waiting for ProtocolStack to start.
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Remote identity confirmed: 55:2c:ac:2e:f3:d2:07:33:a0:14:aa:1e:33:cf:cb:49
+мар. 20, 2024 8:53:13 PM hudson.remoting.Launcher$CuiListener status
+INFO: Connected
