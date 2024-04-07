@@ -1,0 +1,31 @@
+|-----.idea
+    -----.gitignore
+    -----compiler.xml
+    -----encodings.xml
+    -----jarRepositories.xml
+    -----misc.xml
+    -----uiDesigner.xml
+    -----vcs.xml
+    -----workspace.xml
+-----pom.xml
+|-----src
+    |-----main
+        |-----java
+            |-----com
+                |-----belstu
+                    |-----io
+                        -----Main.java
+                        -----Tasks_main.java
+        |-----resources
+    |-----test
+        |-----java
+-----structure.txt
+|-----target
+    |-----classes
+        |-----com
+            |-----belstu
+                |-----io
+                    -----Main.class
+                    -----Tasks_main.class
+    |-----generated-sources
+        |-----annotations

@@ -1,8 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.belstu.testing.AppTest
 -------------------------------------------------------------------------------
-<<<<<<< HEAD
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.039 s - in com.belstu.testing.AppTest
-=======
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.047 s - in com.belstu.testing.AppTest
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.069 s - in com.belstu.testing.AppTest

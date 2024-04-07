@@ -1,18 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.078" tests="5" errors="0" skipped="1" failures="1">
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.042" tests="5" errors="0" skipped="1" failures="1">
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.github.vitalliuss.helloci.AppTest" time="0.083" tests="5" errors="0" skipped="1" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-<<<<<<< HEAD
     <property name="java.class.path" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Maven\Java\target\test-classes;C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Maven\Java\target\classes;C:\Users\mdxbu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mdxbu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
-=======
-    <property name="java.class.path" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Java\target\test-classes;C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Java\target\classes;C:\Users\mdxbu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mdxbu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -24,15 +16,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-<<<<<<< HEAD
-    <property name="sun.java.command" value="C:\Users\mdxbu\AppData\Local\Temp\surefire7702020525119992932\surefirebooter2175955064281183592.jar C:\Users\mdxbu\AppData\Local\Temp\surefire7702020525119992932 2024-03-20T22-03-09_525-jvmRun1 surefire1314098001684331632tmp surefire_017366412187281856672tmp"/>
+    <property name="sun.java.command" value="C:\Users\mdxbu\AppData\Local\Temp\surefire10335802349035305193\surefirebooter3176405487193735846.jar C:\Users\mdxbu\AppData\Local\Temp\surefire10335802349035305193 2024-03-21T08-26-02_510-jvmRun1 surefire10637896907723779307tmp surefire_015746398333167775959tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Maven\Java\target\test-classes;C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Maven\Java\target\classes;C:\Users\mdxbu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mdxbu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
-=======
-    <property name="sun.java.command" value="C:\Users\mdxbu\AppData\Local\Temp\surefire16534226536212305875\surefirebooter2610706360840267540.jar C:\Users\mdxbu\AppData\Local\Temp\surefire16534226536212305875 2024-03-20T00-05-11_562-jvmRun1 surefire2893214145632997565tmp surefire_017121322015499460226tmp"/>
-    <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Java\target\test-classes;C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Java\target\classes;C:\Users\mdxbu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\mdxbu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\mdxbu"/>
     <property name="user.language" value="ru"/>
@@ -40,20 +26,12 @@
     <property name="java.version.date" value="2023-01-17"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-<<<<<<< HEAD
     <property name="basedir" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Maven\Java"/>
-=======
-    <property name="basedir" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Java"/>
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-<<<<<<< HEAD
-    <property name="surefire.real.class.path" value="C:\Users\mdxbu\AppData\Local\Temp\surefire7702020525119992932\surefirebooter2175955064281183592.jar"/>
-=======
-    <property name="surefire.real.class.path" value="C:\Users\mdxbu\AppData\Local\Temp\surefire16534226536212305875\surefirebooter2610706360840267540.jar"/>
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
+    <property name="surefire.real.class.path" value="C:\Users\mdxbu\AppData\Local\Temp\surefire10335802349035305193\surefirebooter3176405487193735846.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.6+9-LTS-190"/>
@@ -67,11 +45,7 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\mdxbu\AppData\Local\Temp\"/>
     <property name="java.version" value="17.0.6"/>
-<<<<<<< HEAD
     <property name="user.dir" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Maven\Java"/>
-=======
-    <property name="user.dir" value="C:\Users\mdxbu\Labs\6SEM\testing\Testing6SEM\Lab5\Java"/>
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
@@ -83,22 +57,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-<<<<<<< HEAD
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.015">
-=======
-  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.007">
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
+  <testcase name="testShouldBeFailed" classname="com.github.vitalliuss.helloci.AppTest" time="0.01">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at com.github.vitalliuss.helloci.AppTest.testShouldBeFailed(AppTest.java:21)
 </failure>
   </testcase>
   <testcase name="testShouldBePassed" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-<<<<<<< HEAD
+  <testcase name="testAnotherMethod" classname="com.github.vitalliuss.helloci.AppTest" time="0.007"/>
   <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0"/>
-=======
-  <testcase name="testAnotherClass" classname="com.github.vitalliuss.helloci.AppTest" time="0.001"/>
->>>>>>> 776f5d2096b5bd2a3080e60f0f2ec1cf97266321
   <testcase name="testShouldBeSKipped" classname="com.github.vitalliuss.helloci.AppTest" time="0">
     <skipped message="Not implemented yet"/>
   </testcase>
