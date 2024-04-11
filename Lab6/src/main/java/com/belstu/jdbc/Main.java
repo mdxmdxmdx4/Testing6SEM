@@ -33,7 +33,7 @@ public class Main {
                 System.out.println(rs.getString("name"));
             }
             System.out.println();
-            DatabaseUpdateExecutor.deleteManufacturerAndSouvenirs("FazE Clan");
+            DatabaseUpdateExecutor.deleteManufacturerAndSouvenirs("LEGO");
 
         } catch (SQLException e) {
             e.printStackTrace();
