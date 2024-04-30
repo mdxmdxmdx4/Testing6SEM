@@ -21,24 +21,18 @@ public class BringItOnTest {
     public void createNewPaste() {
         driver = new EdgeDriver();
         BringItOnPage bringItOnPage = new BringItOnPage(driver);
-        bringItOnPage.openPage();
-        bringItOnPage.writeNewText(PASTETEXT);
-        bringItOnPage.chooseHighlighting(PASTE_HIGHLIGHTING);
-        bringItOnPage.chooseExpiration(PASTE_EXPIRATION);
-        bringItOnPage.writeName(PASTE_NAME);
+        bringItOnPage.openPage()
+                .writeNewText(PASTETEXT)
+                .chooseHighlighting(PASTE_HIGHLIGHTING)
+                .chooseExpiration(PASTE_EXPIRATION)
+                .writeName(PASTE_NAME);
         savedPastePage = bringItOnPage.clickCreateNewPasteButton();
     }
     @Test
-    public void compareHighlighting() {
+    public void compareFields() {
         AssertJUnit Assert = null;
-        Assert.assertEquals(savedPastePage.getHighlighting(),PASTE_HIGHLIGHTING);
-    }
-    @Test
-    public void compareTitle() {
+        Assert.assertEquals(savedPastePage.getHighlighting(), PASTE_HIGHLIGHTING);
         Assert.assertEquals(savedPastePage.getPageTitle().split("-")[0].trim(), PASTE_NAME);
-    }
-    @Test
-    public void compareText() {
         Assert.assertEquals(savedPastePage.getRawPaste(), PASTETEXT);
     }
     @AfterMethod

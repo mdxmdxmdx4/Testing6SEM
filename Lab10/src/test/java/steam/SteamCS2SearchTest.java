@@ -7,22 +7,22 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SteamMarketTest {
-    private static final String GAME_ITEM_NAME = "Great Sage's Reckoning";
-    private static final String FINAL_URL = "https://steamcommunity.com/market/search?q=Great+Sage%27s+Reckoning";
+public class SteamCS2SearchTest {
+    private static final String GAME_TITLE = "CS2";
+    private static final String FINAL_URL = "https://store.steampowered.com/app/730/CounterStrike_2/";
 
     private WebDriver driver;
-    private SteamMarketPage steamMarketPage;
+    private SteamCS2SearchPage steamCS2SearchPage;
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
         driver = new EdgeDriver();
-        steamMarketPage = new SteamMarketPage(driver);
+        steamCS2SearchPage = new SteamCS2SearchPage(driver);
     }
 
     @Test
     public void seartchItemOnMarket(){
-        steamMarketPage = steamMarketPage.openPage()
-                .writeItemTitle(GAME_ITEM_NAME)
+        steamCS2SearchPage = steamCS2SearchPage.openPage()
+                .writeItemTitle(GAME_TITLE)
                 .clickSearchItemButton();
         Assert.assertEquals(driver.getCurrentUrl(), FINAL_URL, "Inccorrect Url");
     }

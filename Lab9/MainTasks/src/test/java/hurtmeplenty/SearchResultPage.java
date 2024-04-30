@@ -24,7 +24,6 @@ public class SearchResultPage extends AbstractPage {
         return new CalculatorPage(driver);
     }
 
-
     @Override
     protected AbstractPage openPage() {
         return null;

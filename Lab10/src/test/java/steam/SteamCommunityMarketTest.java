@@ -7,21 +7,21 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class SteamMarketTest {
+public class SteamCommunityMarketTest {
     private static final String GAME_ITEM_NAME = "Great Sage's Reckoning";
     private static final String FINAL_URL = "https://steamcommunity.com/market/search?q=Great+Sage%27s+Reckoning";
 
     private WebDriver driver;
-    private SteamMarketPage steamMarketPage;
+    private SteamCommunityMarketPage steamCommunityMarketPage;
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
         driver = new EdgeDriver();
-        steamMarketPage = new SteamMarketPage(driver);
+        steamCommunityMarketPage = new SteamCommunityMarketPage(driver);
     }
 
     @Test
     public void seartchItemOnMarket(){
-        steamMarketPage = steamMarketPage.openPage()
+        steamCommunityMarketPage = steamCommunityMarketPage.openPage()
                 .writeItemTitle(GAME_ITEM_NAME)
                 .clickSearchItemButton();
         Assert.assertEquals(driver.getCurrentUrl(), FINAL_URL, "Inccorrect Url");

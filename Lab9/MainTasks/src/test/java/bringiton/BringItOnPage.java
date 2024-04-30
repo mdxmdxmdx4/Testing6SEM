@@ -37,19 +37,23 @@ public class BringItOnPage extends AbstractPage{
     @FindBy(xpath = "//button[text()='Create New Paste']")
     private WebElement newPasteButton;
 
-    public void writeNewText(String name) {
+    public BringItOnPage writeNewText(String name) {
         newText.sendKeys(name);
+        return this;
     }
-    public void chooseHighlighting(String highlighting) {
+    public BringItOnPage chooseHighlighting(String highlighting) {
         setSelectOption(selectHighlighting, highlighting);
+        return this;
     }
 
-    public void chooseExpiration(String expiration) {
+    public BringItOnPage chooseExpiration(String expiration) {
         setSelectOption(selectExpiration, expiration);
+        return this;
     }
 
-    public void writeName(String name) {
+    public BringItOnPage writeName(String name) {
         pasteName.sendKeys(name);
+        return this;
     }
 
     public SavedPastePage clickCreateNewPasteButton() {
