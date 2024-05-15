@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-15T19:32:32 MSK" name="Surefire suite" finished-at="2024-05-15T19:33:09 MSK" duration-ms="37054">
+    <groups>
+    </groups>
+    <test started-at="2024-05-15T19:32:32 MSK" name="Surefire test" finished-at="2024-05-15T19:33:09 MSK" duration-ms="37054">
+      <class name="test.SteamCommunityMarketTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamCommunityMarketTest@7c469c48]" started-at="2024-05-15T19:32:32 MSK" name="setUp" finished-at="2024-05-15T19:32:42 MSK" duration-ms="9615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchItemOnMarket()[pri:0, instance:test.SteamCommunityMarketTest@7c469c48]" started-at="2024-05-15T19:32:42 MSK" name="seartchItemOnMarket" finished-at="2024-05-15T19:32:45 MSK" duration-ms="3139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchItemOnMarket -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamCommunityMarketTest@7c469c48]" started-at="2024-05-15T19:32:45 MSK" name="stopBrowser" finished-at="2024-05-15T19:32:47 MSK" duration-ms="1605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamCommunityMarketTest -->
+      <class name="test.SteamCS2SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamCS2SearchTest@6fe7aac8]" started-at="2024-05-15T19:32:47 MSK" name="setUp" finished-at="2024-05-15T19:32:55 MSK" duration-ms="8613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchItemOnMarket()[pri:0, instance:test.SteamCS2SearchTest@6fe7aac8]" started-at="2024-05-15T19:32:55 MSK" name="seartchItemOnMarket" finished-at="2024-05-15T19:33:08 MSK" duration-ms="12384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchItemOnMarket -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamCS2SearchTest@6fe7aac8]" started-at="2024-05-15T19:33:08 MSK" name="stopBrowser" finished-at="2024-05-15T19:33:09 MSK" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamCS2SearchTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
