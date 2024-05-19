@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-19T20:35:21 MSK" name="Surefire suite" finished-at="2024-05-19T20:36:57 MSK" duration-ms="96649">
+    <groups>
+    </groups>
+    <test started-at="2024-05-19T20:35:21 MSK" name="Surefire test" finished-at="2024-05-19T20:36:57 MSK" duration-ms="96649">
+      <class name="test.SteamCommunityMarketTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamCommunityMarketTest@49b0b76]" started-at="2024-05-19T20:35:52 MSK" name="setUp" finished-at="2024-05-19T20:36:01 MSK" duration-ms="8660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchItemOnMarket()[pri:0, instance:test.SteamCommunityMarketTest@49b0b76]" started-at="2024-05-19T20:36:01 MSK" name="seartchItemOnMarket" finished-at="2024-05-19T20:36:07 MSK" duration-ms="5946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchItemOnMarket -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamCommunityMarketTest@49b0b76]" started-at="2024-05-19T20:36:07 MSK" name="stopBrowser" finished-at="2024-05-19T20:36:08 MSK" duration-ms="1630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamCommunityMarketTest -->
+      <class name="test.SteamGroupSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamGroupSearchTest@4c9f8c13]" started-at="2024-05-19T20:36:26 MSK" name="setUp" finished-at="2024-05-19T20:36:35 MSK" duration-ms="8935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchGameNewsOnHub()[pri:0, instance:test.SteamGroupSearchTest@4c9f8c13]" started-at="2024-05-19T20:36:35 MSK" name="seartchGameNewsOnHub" finished-at="2024-05-19T20:36:39 MSK" duration-ms="4330" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchGameNewsOnHub -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamGroupSearchTest@4c9f8c13]" started-at="2024-05-19T20:36:39 MSK" name="stopBrowser" finished-at="2024-05-19T20:36:41 MSK" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamGroupSearchTest -->
+      <class name="test.SteamProfileSearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamProfileSearchTest@5ae50ce6]" started-at="2024-05-19T20:36:41 MSK" name="setUp" finished-at="2024-05-19T20:36:50 MSK" duration-ms="9016" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchGameNewsOnHub()[pri:0, instance:test.SteamProfileSearchTest@5ae50ce6]" started-at="2024-05-19T20:36:50 MSK" name="seartchGameNewsOnHub" finished-at="2024-05-19T20:36:56 MSK" duration-ms="5530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchGameNewsOnHub -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamProfileSearchTest@5ae50ce6]" started-at="2024-05-19T20:36:56 MSK" name="stopBrowser" finished-at="2024-05-19T20:36:57 MSK" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamProfileSearchTest -->
+      <class name="test.SteamCS2SearchTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamCS2SearchTest@769f71a9]" started-at="2024-05-19T20:36:08 MSK" name="setUp" finished-at="2024-05-19T20:36:17 MSK" duration-ms="9124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchItemOnMarket()[pri:0, instance:test.SteamCS2SearchTest@769f71a9]" started-at="2024-05-19T20:36:17 MSK" name="seartchItemOnMarket" finished-at="2024-05-19T20:36:24 MSK" duration-ms="6960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchItemOnMarket -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamCS2SearchTest@769f71a9]" started-at="2024-05-19T20:36:24 MSK" name="stopBrowser" finished-at="2024-05-19T20:36:26 MSK" duration-ms="1861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamCS2SearchTest -->
+      <class name="test.GameHubTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.GameHubTest@6ac13091]" started-at="2024-05-19T20:35:21 MSK" name="setUp" finished-at="2024-05-19T20:35:30 MSK" duration-ms="9509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchGameNewsOnHub()[pri:0, instance:test.GameHubTest@6ac13091]" started-at="2024-05-19T20:35:30 MSK" name="seartchGameNewsOnHub" finished-at="2024-05-19T20:35:37 MSK" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchGameNewsOnHub -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.GameHubTest@6ac13091]" started-at="2024-05-19T20:35:37 MSK" name="stopBrowser" finished-at="2024-05-19T20:35:38 MSK" duration-ms="1717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.GameHubTest -->
+      <class name="test.SteamChartsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test.SteamChartsTest@35047d03]" started-at="2024-05-19T20:35:38 MSK" name="setUp" finished-at="2024-05-19T20:35:47 MSK" duration-ms="8539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seartchGameNewsOnHub()[pri:0, instance:test.SteamChartsTest@35047d03]" started-at="2024-05-19T20:35:47 MSK" name="seartchGameNewsOnHub" finished-at="2024-05-19T20:35:50 MSK" duration-ms="3389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seartchGameNewsOnHub -->
+        <test-method is-config="true" signature="stopBrowser()[pri:0, instance:test.SteamChartsTest@35047d03]" started-at="2024-05-19T20:35:50 MSK" name="stopBrowser" finished-at="2024-05-19T20:35:52 MSK" duration-ms="1750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopBrowser -->
+      </class> <!-- test.SteamChartsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

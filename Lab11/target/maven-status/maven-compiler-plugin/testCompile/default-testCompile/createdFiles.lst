@@ -1,8 +1,10 @@
 page\SteamGroupSearchPage.class
+test\SteamProfileSearchTest.class
 util\CustomCondition$1.class
 util\CustomCondition$3.class
 test\SteamCS2SearchTest.class
 test\SteamGroupSearchTest.class
+service\UserGenerator.class
 model\GameItem.class
 model\Group.class
 page\SteamCommunityMarketPage.class
@@ -14,6 +16,7 @@ page\SteamCS2SearchPage.class
 service\GameItemCreator.class
 page\AbstractPage.class
 test\SteamCommunityMarketTest.class
+model\User.class
 util\CustomCondition$2.class
 util\CustomCondition.class
 test\CommonConditions.class
@@ -22,4 +25,5 @@ model\Game.class
 service\TestDataReader.class
 driver\DriverSingleton.class
 page\GameHubPage.class
+page\SteamProfileSearchPage.class
 test\SteamChartsTest.class

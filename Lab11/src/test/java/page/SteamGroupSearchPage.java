@@ -20,7 +20,7 @@ public class SteamGroupSearchPage extends AbstractPage{
     }
     @FindBy(id = "search_text_box")
     private WebElement groupTitleInput;
-    @FindBy(css = "a[href='https://steamcommunity.com/groups/tradingcards']")
+    @FindBy(xpath = "//*[@id=\"search_results\"]/div[2]/div[2]/div[1]/a")
     private WebElement groupLink;
     public SteamGroupSearchPage writeGroupTitle(String input){
         groupTitleInput.sendKeys(input);
